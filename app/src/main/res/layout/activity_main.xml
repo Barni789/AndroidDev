@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:ignore="MissingClass">
-
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -53,5 +51,7 @@
         android:layout_marginEnd="200dp"
         android:ems="100"
         android:inputType="textPassword" />
+
+
 </androidx.appcompat.widget.LinearLayoutCompat>
 
