@@ -3,7 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+
 
     <Button
         android:id="@+id/button_1"
@@ -17,7 +20,6 @@
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_4" />
-
     <Button
         android:id="@+id/button_2"
         android:layout_width="wrap_content"
@@ -227,7 +229,7 @@
         android:clickable="false"
         android:ems="10"
         android:gravity="end"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:text="@integer/int_calc"
         android:textSize="@dimen/font_size"
         app:layout_constraintBottom_toTopOf="@+id/button_multiply"
