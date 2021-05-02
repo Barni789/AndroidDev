@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">app</string>
+    <string name="app_name">Calculator</string>
     <string name="button_0">0</string>
     <string name="button_1">1</string>
     <string name="button_2">2</string>
@@ -16,7 +16,7 @@
     <string name="button_split">/</string>
     <string name="button_equals">=</string>
     <string name="button_del">AC</string>
-    <string name="button_point">,</string>
+    <string name="button_point">.</string>
     <string name="hint">Input</string>
     <integer name="int_calc">0</integer>
 
